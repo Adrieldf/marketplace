@@ -1,0 +1,55 @@
+.formLabel {
+    width: 100px;
+    font-family: sans-serif;
+    height: 30px;
+    margin: 5px;
+}
+
+.formTextInput {
+    width: 230px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.divRow {}
+
+.formCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    width: 60%;
+}
+
+.formSubmit {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #90baee;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: medium;
+    color: black;
+    margin-top: 20px;
+}
+
+.formSelect {
+    width: 235px;
+    margin: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.formCancel {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ee9090;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: medium;
+    color: black;
+    margin-top: 20px;
+}
