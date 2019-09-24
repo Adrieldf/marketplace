@@ -73,7 +73,7 @@ body {
     font-size: 18px;
     border: none;
     height: 32px;
-    width: 191px;
+    width: 295px;
 }
 
 #btnBusca {
@@ -92,4 +92,25 @@ body {
     max-height: 30px;
     width: auto;
     height: auto;
+}
+#logofreemarket img {
+    width: 200px;
+    height: 150px;
+}
+
+
+#produtos{
+    float: left;
+    left: 50%;
+    border-radius: 8px;
+    width: 70%;
+}
+.produto{
+    width: 31%;
+    height: 450px;
+    margin-top: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
 }
