@@ -15,6 +15,7 @@
             <li> <a href="../html/pedido.html">Pedido</a></li>
             <li> <a href="../html/login.html">Login</a></li>
             <li> <a href="../html/cadVendedoresList.html">Vendedores</a></li>
+            <li> <a href="../html/carrinhoCompras.html">Carrinho</a></li>
 
         </ul>
     </nav>
@@ -25,52 +26,61 @@
         </div>
     </header>
     <br>
-    <form class="formCenter">
-        <div class="divRow">
-            <label class="formLabel">
-                Nome
-            </label>
-            <input class="formTextInput" type="text" placeholder="Ex: Televisão">
-        </div>
-        <div class="divRow">
-            <label class="formLabel">
-                Modelo
-            </label>
-            <input class="formTextInput" type="text" placeholder="Ex: TV0001BR">
-        </div>
+    <div id="content" style="margin-left:40px; margin-right: 40px;">
 
-        <div class="divRow">
-            <label class="formLabel">
-                Segmento
-            </label>
-            <select class="formSelect">
-                <option value="eletronicos">Eletrônicos</option>
-                <option value="eletrodomesticos">Eletrodomésticos</option>
-                <option value="acessorios">Acessórios</option>
-                <option value="vestuario">Vestuário</option>
-            </select>
-        </div>
+        <form class="formCenter">
+            <div class="divRow">
+                <label class="formLabel">
+                    Nome
+                </label>
+                <input class="formTextInput" type="text" placeholder="Ex: Televisão">
+            </div>
+            <div class="divRow">
+                <label class="formLabel">
+                    Modelo
+                </label>
+                <input class="formTextInput" type="text" placeholder="Ex: TV0001BR">
+            </div>
+            <div class="divRow">
+                <label class="formLabel">
+                    Imagens
+                </label>
+                <input type="file" name="img" multiple>
+            </div>
+            <div class="divRow">
+                <label class="formLabel">
+                    Segmento
+                </label>
+                <select class="formSelect">
+                    <option value="eletronicos">Eletrônicos</option>
+                    <option value="eletrodomesticos">Eletrodomésticos</option>
+                    <option value="acessorios">Acessórios</option>
+                    <option value="vestuario">Vestuário</option>
+                </select>
+            </div>
 
-        <div class="divRow">
-            <label class="formLabel">
-                Descrição
-            </label>
-            <textarea class="formTextInput" type="text" rows="10" placeholder="Ex: Excelente para ambiente doméstico"></textarea>
-        </div>
-        <div class="divRow">
-            <label class="formLabel">
-                Preço
-            </label>
-            <input class="formTextInput" type="text" placeholder="Ex: 1.000,00">
-        </div>
-      
+            <div class="divRow">
+                <label class="formLabel">
+                    Descrição
+                </label>
+                <textarea class="formTextInput" type="text" rows="10"
+                    placeholder="Ex: Excelente para ambiente doméstico"></textarea>
+            </div>
+            <div class="divRow">
+                <label class="formLabel">
+                    Preço
+                </label>
+                <input class="formTextInput" type="text" placeholder="Ex: 1.000,00">
+            </div>
 
-        <br>
-        <div class="divRow divSubmitButtons">
-            <a href="../html/cadProdutosList.html"><button form="cancel">Voltar</button></a>
-            <button form="submit">Salvar</button>
-            <button form="delete">Apagar</button>
-        </div>
-    </form>
+
+            <br>
+            <div class="divRow divSubmitButtons">
+                <a href="../html/cadProdutosList.html" style="text-decoration: none;"><button form="cancel">Voltar</button></a>
+                <button form="submit">Salvar</button>
+                <button form="delete">Apagar</button>
+            </div>
+        </form>
+    </div>
 
 </body>

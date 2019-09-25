@@ -1570,3 +1570,15 @@
 .formLabel {
 	margin-bottom: 0;
 }
+.rightButton {
+	float: right;
+	margin-right: 5px;
+
+}
+.labelPedido {
+    vertical-align: top;
+}
+.imgPedido {
+    width: 120px;
+    height: 120px;
+}
