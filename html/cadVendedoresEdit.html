@@ -2,12 +2,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/main.css" />
 </head>
 
 <body>
     <script type="text/javascript" src="../js/controller.js"></script>
+    <nav id="menu">
+        <ul>
+            <li> <a href="../html/index.html">Home</a></li>
+            <li> <a href="../html/galeriaProdutos.html">Produtos</a></li>
+            <li> <a href="../html/carrinhoCompras.html">Carrinho de Compras</a></li>
+            <li> <a href="../html/pedido.html">Pedido</a></li>
+            <li> <a href="../html/login.html">Login</a></li>
+            <li> <a href="../html/cadVendedoresList.html">Vendedores</a></li>
 
+        </ul>
+    </nav>
+    <header id="header" class="alt">
+        <div class="inner">
+            <h1>Vendedor</h1>
+            <p>Cadastrar um vendedor</p>
+        </div>
+    </header>
+    <br>
+    <div class="inner">
+        <form class="inner" method="get" action="../html/cadProdutosList.html"> <button>Produtos</button> </form>
+    </div>
     <form class="formCenter">
         <div class="divRow">
             <label class="formLabel">
@@ -125,10 +145,11 @@
             </label>
             <input class="formTextInput" type="text" placeholder="Ex: me@freemarket.com">
         </div>
-
-        <div class="divRow">
-            <button class="formCancel" form="calcel">Voltar</button>
-            <button class="formSubmit" form="submit">Salvar</button>
+        <br>
+        <div class="divRow divSubmitButtons">
+            <a href="../html/cadVendedoresList.html"><button form="cancel">Voltar</button></a>
+            <button form="submit">Salvar</button>
+            <button form="delete">Apagar</button>
         </div>
     </form>
 

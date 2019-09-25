@@ -1533,3 +1533,40 @@
 			color: #f5f5f5;
 			border-bottom: 3px solid #f5f5f5;
 			}
+.formCenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.divSubmitButtons {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.divList {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.divItem {
+	width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.labelDivItem {
+	display: inline;
+	margin-right: 10px;
+}
+.divRow {
+	margin-bottom: 10px;
+}
+.formLabel {
+	margin-bottom: 0;
+}
