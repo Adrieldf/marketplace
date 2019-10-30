@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <head>
     <meta charset="UTF-8">
@@ -7,18 +6,9 @@
 
 <body>
     <script type="text/javascript" src="../js/controller.js"></script>
-    <nav id="menu">
-        <ul>
-            <li> <a href="../html/index.html">Home</a></li>
-            <li> <a href="../html/galeriaProdutos.html">Produtos</a></li>
-            <li> <a href="../html/carrinhoCompras.html">Carrinho de Compras</a></li>
-            <li> <a href="../html/pedido.html">Pedido</a></li>
-            <li> <a href="../html/login.html">Login</a></li>
-            <li> <a href="../html/cadVendedoresList.html">Vendedores</a></li>
-            <li> <a href="../html/carrinhoCompras.html">Carrinho</a></li>
-
-        </ul>
-    </nav>
+    <?PHP 
+  include_once("navbar.html");
+  ?>
     <header id="header" class="alt">
         <div class="inner">
             <h1>Vendedor</h1>
