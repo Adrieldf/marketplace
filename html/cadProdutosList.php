@@ -16,7 +16,7 @@
   <br>
   <div id="content" style="margin-left:40px; margin-right: 40px;">
 
-    <form class="inner" method="get" action="../html/cadProdutosEdit.html" style="text-decoration: none;">
+    <form class="inner" method="get" action="../html/cadProdutosEdit.php" style="text-decoration: none;">
       <button>Cadastrar Novo</button> </form>
     <br>
     <div id="vendedorList" class="divList">
@@ -24,12 +24,12 @@
       <div class="divItem">
         <label class="labelDivItem">Suporte de TV</label>
         <a class="rightButton" href="" style="text-decoration: none;">Excluir</a>
-        <a class="rightButton" href="../html/cadProdutosEdit.html" style="text-decoration: none;">Editar</a>
+        <a class="rightButton" href="../html/cadProdutosEdit.php" style="text-decoration: none;">Editar</a>
       </div>
       <div class="divItem">
         <label class="labelDivItem">Cabo HDMI</label>
         <a class="rightButton" href="" style="text-decoration: none;">Excluir</a>
-        <a class="rightButton" href="../html/cadProdutosEdit.html" style="text-decoration: none;">Editar</a>
+        <a class="rightButton" href="../html/cadProdutosEdit.php" style="text-decoration: none;">Editar</a>
       </div>
     </div>
 

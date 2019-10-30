@@ -21,7 +21,7 @@
                 <label class="formLabel">
                     Faça seu cadastro / login
                 </label>
-                <a href="../html/login.html" style="text-decoration: none;"><button form="cancel">Cadastro / Login</button></a>
+                <a href="../html/login.php" style="text-decoration: none;"><button form="cancel">Cadastro / Login</button></a>
             </div>
             <div class="divRow">
                 <label class="formLabel">
@@ -50,7 +50,7 @@
 
             <br>
             <div class="divRow divSubmitButtons">
-                <a href="../html/index.html" style="text-decoration: none;"><button form="cancel">Cancelar</button></a>
+                <a href="../html/index.php" style="text-decoration: none;"><button form="cancel">Cancelar</button></a>
                 <button form="submit">Confimar</button>
             </div>
         </form>

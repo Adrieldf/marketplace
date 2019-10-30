@@ -66,7 +66,7 @@
 
             <br>
             <div class="divRow divSubmitButtons">
-                <a href="../html/cadProdutosList.html" style="text-decoration: none;"><button form="cancel">Voltar</button></a>
+                <a href="../html/cadProdutosList.php" style="text-decoration: none;"><button form="cancel">Voltar</button></a>
                 <button form="submit">Salvar</button>
                 <button form="delete">Apagar</button>
             </div>

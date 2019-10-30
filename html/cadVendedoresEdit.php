@@ -19,7 +19,7 @@
     <div id="content" style="margin-left:40px; margin-right: 40px;">
 
         <div class="inner">
-            <form class="inner" method="get" action="../html/cadProdutosList.html"> <button>Produtos</button> </form>
+            <form class="inner" method="get" action="../html/cadProdutosList.php"> <button>Produtos</button> </form>
         </div>
         <form class="formCenter">
             <div class="divRow">
@@ -140,7 +140,7 @@
             </div>
             <br>
             <div class="divRow divSubmitButtons">
-                <a href="../html/cadVendedoresList.html" style="text-decoration: none;"><button form="cancel">Voltar</button></a>
+                <a href="../html/cadVendedoresList.php" style="text-decoration: none;"><button form="cancel">Voltar</button></a>
                 <button form="submit">Salvar</button>
                 <button form="delete">Apagar</button>
             </div>

@@ -48,7 +48,7 @@
          
          
          
-         <form method="get" action="../html/carrinhoCompras.html"> <button id="comprar"  >Comprar</button> </form>
+         <form method="get" action="../html/carrinhoCompras.php"> <button id="comprar"  >Comprar</button> </form>
 
 
 

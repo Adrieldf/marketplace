@@ -20,7 +20,7 @@
 				<img class="buscador" src="https://github.com/Adrieldf/marketplace/blob/master/Imagens/cropped-lupa.png?raw=true" alt="Buscar..."/>
 		
 				<input type="text" id="txtBusca" placeholder="O que Você esta Procurando?"/>
-				<form method="get" action="../html/galeriaProdutos.html"> <button id="btnBusca"  >Buscar</button> </form>
+				<form method="get" action="../html/galeriaProdutos.php"> <button id="btnBusca"  >Buscar</button> </form>
 		
 		
 			  </div>

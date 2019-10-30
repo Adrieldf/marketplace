@@ -46,7 +46,7 @@
             <button style="vertical-align: middle;">Calular</button>
         </div>
         <br>
-        <a href="../html/pedido.html" class="" style="text-decoration: none;"><button>Finalizar
+        <a href="../html/pedido.php" class="" style="text-decoration: none;"><button>Finalizar
                 Pedido</button></a>
         <div style="height: 300px;"></div>
 

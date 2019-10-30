@@ -13,7 +13,7 @@
 					<section class="main items">
 						<article class="item">
 							<header>
-								<a href="../html/detalheProdutos.html"><img src="https://images-submarino.b2w.io/produtos/01/00/sku/7929/7/7929783_1GG.jpg" /></a>
+								<a href="../html/detalheProdutos.php"><img src="https://images-submarino.b2w.io/produtos/01/00/sku/7929/7/7929783_1GG.jpg" /></a>
                                 <h3>Suporte para TV </h3>
 							</header>
 							<p>Suporte para TV Fixo de Parede Genius de 14 à 84" - ELG Suportes</p>
@@ -33,7 +33,7 @@
 						</article>
 						<article class="item">
 							<header>
-								<a href="../html/detalheProdutos2.html"><img src="https://images-submarino.b2w.io/produtos/01/00/offers/01/00/item/117982/1/117982191_1GG.jpg" alt="" /></a>
+								<a href="../html/detalheProdutos2.php"><img src="https://images-submarino.b2w.io/produtos/01/00/offers/01/00/item/117982/1/117982191_1GG.jpg" alt="" /></a>
 								<h3>Cervejeira Consul Mais Vermelho</h3>
 							</header>
 							<p>A Consul inova mais uma vez em design e tecnologia, trazendo a incrível..</p>
