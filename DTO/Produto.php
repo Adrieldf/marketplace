@@ -6,50 +6,77 @@
 	class Produto{
 		//Atributos
 		private $idProduto;
- 		private $nome;
- 		private $modelo;
- 		private $Segmento;
- 		private $Descrição;
- 		private $preco;
- 				
+
+ 		private $nome;
+
+ 		private $modelo;
+
+ 		private $Segmento;
+
+ 		private $Descricao;
+
+ 		private $preco;
+
+		 public function __construct( $idProduto, $nome, $modelo, $Segmento, $Descricao, $preco)
+		 {
+			 $this->idProduto=$idProduto;
+			 $this->nome=$nome;
+			 $this->modelo=$modelo;
+			 $this->Segmento=$Segmento;
+			 $this->Descricao=$Descricao;
+			 $this->preco=$preco;
+		 }
+		 
 		//Métodos Getters e Setters
 		public function getIdProduto(){
 			return $this->idProduto;
 		}
-		public function getNome(){
+
+		public function getNome(){
 			return $this->nome;
 		}
-		public function getModelo(){
+
+		public function getModelo(){
 			return $this->modelo;
 		}
-		public function getSegmento(){
+
+		public function getSegmento(){
 			return $this->Segmento;
 		}
-		public function getDescrição(){
-			return $this->Descrição;
+
+		public function getDescricao(){
+			return $this->Descricao;
 		}
-		public function getPreco(){
+
+		public function getPreco(){
 			return $this->preco;
 		}
-		
+
+		
 		public function setIdProduto($idProduto){
 			$this->idProduto=$idProduto;
 		}
-		public function setNome($nome){
+
+		public function setNome($nome){
 			$this->nome=$nome;
 		}
-		public function setModelo($modelo){
+
+		public function setModelo($modelo){
 			$this->modelo=$modelo;
 		}
-		public function setSegmento($Segmento){
+
+		public function setSegmento($Segmento){
 			$this->Segmento=$Segmento;
 		}
-		public function setDescrição($Descrição){
-			$this->Descrição=$Descrição;
+
+		public function setDescricao($Descricao){
+			$this->Descricao=$Descricao;
 		}
-		public function setPreco($preco){
+
+		public function setPreco($preco){
 			$this->preco=$preco;
 		}
-		
+
+		
 	}
 ?>
