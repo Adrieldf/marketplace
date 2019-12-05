@@ -40,7 +40,9 @@
                 });
     }
     
-    
+    $(document).ready(function () {
+		buscar("");
+	});
     $('#buscar').click(function () {
         buscar($("#palavra").val())
     });

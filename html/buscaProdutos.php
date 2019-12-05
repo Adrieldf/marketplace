@@ -19,7 +19,7 @@ $produtos = $dao->listarTodos();
     ?>
     	<article class="item">
 					<header>
-						<a href="../html/detalheProdutos.php"><img src="https://images-submarino.b2w.io/produtos/01/00/sku/7929/7/7929783_1GG.jpg" /></a>
+						<a href="../html/detalheProdutos.php?id=<?=$produto->getIdProduto();?>"><img src="https://images-submarino.b2w.io/produtos/01/00/sku/7929/7/7929783_1GG.jpg" /></a>
                         <h3><?=$produto->getNome();?> </h3>
 					</header>
 					<p><?=$produto->getModelo();?></p>
