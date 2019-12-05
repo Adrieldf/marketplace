@@ -6,99 +6,154 @@
 	class Vendedor{
 		//Atributos
 		private $idVendedor;
- 		private $nome;
- 		private $cpf;
- 		private $cep;
- 		private $rua;
- 		private $numero;
- 		private $bairro;
- 		private $cidade;
- 		private $estado;
- 		private $pais;
- 		private $telefone;
- 		private $celular;
- 		private $email;
- 				
+
+ 		private $nome;
+
+ 		private $cpf;
+
+ 		private $cep;
+
+ 		private $rua;
+
+ 		private $numero;
+
+ 		private $bairro;
+
+ 		private $cidade;
+
+ 		private $estado;
+
+ 		private $pais;
+
+ 		private $telefone;
+
+ 		private $celular;
+
+ 		private $email;
+
+		 public function __construct( $idVendedor, $nome, $cpf, $cep, $rua, $numero, $bairro, $cidade, $estado, $pais, $telefone, $celular, $email)
+		 {
+			 $this->idVendedor=$idVendedor;
+			 $this->nome=$nome;
+			 $this->cpf=$cpf;
+			 $this->cep=$cep;
+			 $this->rua=$rua;
+			 $this->numero=$numero;
+			 $this->bairro=$bairro;
+			 $this->cidade=$cidade;
+			 $this->estado=$estado;
+			 $this->pais=$pais;
+			 $this->telefone=$telefone;
+			 $this->celular=$celular;
+			 $this->email=$email;
+			 
+		 }	
 		//Métodos Getters e Setters
 		public function getIdVendedor(){
 			return $this->idVendedor;
 		}
-		public function getNome(){
+
+		public function getNome(){
 			return $this->nome;
 		}
-		public function getCpf(){
+
+		public function getCpf(){
 			return $this->cpf;
 		}
-		public function getCep(){
+
+		public function getCep(){
 			return $this->cep;
 		}
-		public function getRua(){
+
+		public function getRua(){
 			return $this->rua;
 		}
-		public function getNumero(){
+
+		public function getNumero(){
 			return $this->numero;
 		}
-		public function getBairro(){
+
+		public function getBairro(){
 			return $this->bairro;
 		}
-		public function getCidade(){
+
+		public function getCidade(){
 			return $this->cidade;
 		}
-		public function getEstado(){
+
+		public function getEstado(){
 			return $this->estado;
 		}
-		public function getPais(){
+
+		public function getPais(){
 			return $this->pais;
 		}
-		public function getTelefone(){
+
+		public function getTelefone(){
 			return $this->telefone;
 		}
-		public function getCelular(){
+
+		public function getCelular(){
 			return $this->celular;
 		}
-		public function getEmail(){
+
+		public function getEmail(){
 			return $this->email;
 		}
-		
+
+		
 		public function setIdVendedor($idVendedor){
 			$this->idVendedor=$idVendedor;
 		}
-		public function setNome($nome){
+
+		public function setNome($nome){
 			$this->nome=$nome;
 		}
-		public function setCpf($cpf){
+
+		public function setCpf($cpf){
 			$this->cpf=$cpf;
 		}
-		public function setCep($cep){
+
+		public function setCep($cep){
 			$this->cep=$cep;
 		}
-		public function setRua($rua){
+
+		public function setRua($rua){
 			$this->rua=$rua;
 		}
-		public function setNumero($numero){
+
+		public function setNumero($numero){
 			$this->numero=$numero;
 		}
-		public function setBairro($bairro){
+
+		public function setBairro($bairro){
 			$this->bairro=$bairro;
 		}
-		public function setCidade($cidade){
+
+		public function setCidade($cidade){
 			$this->cidade=$cidade;
 		}
-		public function setEstado($estado){
+
+		public function setEstado($estado){
 			$this->estado=$estado;
 		}
-		public function setPais($pais){
+
+		public function setPais($pais){
 			$this->pais=$pais;
 		}
-		public function setTelefone($telefone){
+
+		public function setTelefone($telefone){
 			$this->telefone=$telefone;
 		}
-		public function setCelular($celular){
+
+		public function setCelular($celular){
 			$this->celular=$celular;
 		}
-		public function setEmail($email){
+
+		public function setEmail($email){
 			$this->email=$email;
 		}
-		
+
+		
 	}
 ?>

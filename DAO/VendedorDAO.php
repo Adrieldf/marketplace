@@ -14,11 +14,18 @@ class VendedorDAO{
 
 	//Lista todos os elementos da tabela
 	public function listarTodos(){
-		include("conexao.php");
+		include("../conexao.php");
 		$sql = 'SELECT * FROM vendedor';
 		$consulta = $conexao->prepare($sql);
 		$consulta->execute();
-		return ($consulta->fetchAll(PDO::FETCH_ASSOC));
+		$vendedores = array();        
+	
+        while ($row = $consulta->fetch(PDO::FETCH_ASSOC)){
+            extract($row);
+            $vendedores[] = new Vendedor( $idVendedor, $nome, $cpf, $cep, $rua, $numero, $bairro, $cidade, $estado, $pais, $telefone, $celular, $email);
+        }
+	
+        return $vendedores;
 	}
 	
 	//Lista todos os elementos da tabela listando ordenados por uma coluna específica
@@ -124,5 +131,6 @@ class VendedorDAO{
 		else
 			return false;
 	}
+
 }
 ?>
