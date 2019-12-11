@@ -22,17 +22,20 @@
             <form class="inner" method="get" action="../html/cadProdutosList.php"> <button>Produtos</button> </form>
         </div>
         <form class="formCenter">
+        <div style="display:none;">
+        <input id="idVendedor">
+        </div>
             <div class="divRow">
                 <label class="formLabel">
                     Nome/Razão Social
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: João da Silva">
+                <input id="nome" class="formTextInput" type="text" placeholder="Ex: João da Silva">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     CPF/CNPJ
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: 000.000.000-00">
+                <input id="cpf" class="formTextInput" type="text" placeholder="Ex: 000.000.000-00">
             </div>
 
             <div class="divRow">
@@ -51,37 +54,37 @@
                 <label class="formLabel">
                     Cep
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: 12345-678">
+                <input id="cep" class="formTextInput" type="text" placeholder="Ex: 12345-678">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     Rua
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: Rua João da Silva">
+                <input id="rua" class="formTextInput" type="text" placeholder="Ex: Rua João da Silva">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     Número
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: 000">
+                <input id="numero" class="formTextInput" type="text" placeholder="Ex: 000">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     Bairro
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: Centro">
+                <input id="bairro" class="formTextInput" type="text" placeholder="Ex: Centro">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     Cidade
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: Porto Alegre">
+                <input id="cidade" class="formTextInput" type="text" placeholder="Ex: Porto Alegre">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     Estado
                 </label>
-                <select class="formSelect">
+                <select id="estado" class="formSelect">
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
                     <option value="AP">Amapá</option>
@@ -116,7 +119,7 @@
                 <label class="formLabel">
                     País
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: Brasil">
+                <input id="pais" class="formTextInput" type="text" placeholder="Ex: Brasil">
             </div>
 
 
@@ -124,19 +127,19 @@
                 <label class="formLabel">
                     Telefone
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: 54 1234 5678">
+                <input id="telefone" class="formTextInput" type="text" placeholder="Ex: 54 1234 5678">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     Celular
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: 54 98765 4321">
+                <input id="celular" class="formTextInput" type="text" placeholder="Ex: 54 98765 4321">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     E-mail
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: me@freemarket.com">
+                <input id="email" class="formTextInput" type="text" placeholder="Ex: me@freemarket.com">
             </div>
             <br>
             <div class="divRow divSubmitButtons">

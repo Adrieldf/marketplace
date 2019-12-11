@@ -3,24 +3,23 @@ include_once('../DTO/Vendedor.php');
 include_once('../DAO/VendedorDAO.php');
 include_once('../conexao.php');
 
+$idVendedor = $_POST["idVendedor"];
+$nome = $_POST["nome"];
+$cpf = $_POST["cpf"];
+$cep = $_POST["cep"];
+$rua = $_POST["rua"];
+$numero = $_POST["numero"];
+$bairro = $_POST["bairro"];
+$cidade = $_POST["cidade"];
+$estado = $_POST["estado"];
+$pais = $_POST["pais"];
+$telefone = $_POST["telefone"];
+$celular = $_POST["celular"];
+$email = $_POST["email"];
+
+
 $dao = new VendedorDAO();
 $vend = new Vendedor($idVendedor, $nome, $cpf, $cep, $rua, $numero, $bairro, $cidade, $estado, $pais, $telefone, $celular, $email);
 $vendedores = $dao->listarTodos();
 
 ?>
-    <?php
-    if(sizeof($vendedores)>0){
-    ?>
-    <?php 
-    foreach ($vendedores as $vendedor) {
-    ?>
-     <div class="divItem">
-        <label class="labelDivItem"><?=$vendedor->getNome();?></label>
-        <a class="rightButton" href="" style="text-decoration: none;">Excluir</a>
-        <a class="rightButton" href="../html/cadVendedoresEdit.php" style="text-decoration: none;">Editar</a>
-      </div>
-            <?php }?>
-     
-    <?php }else{?>
-    <h4>Nao foram encontrados registros com esta palavra.</h4>
-    <?php }?>
