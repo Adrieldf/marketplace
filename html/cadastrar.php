@@ -4,7 +4,7 @@ include_once('../DAO/UsuarioDAO.php');
 include_once('../conexao.php');
 include_once "login.php";
 
-$login = @$_GET["login"];
+$login = @$_GET["txtlogin"];
 $email =@$_GET["email"];
 $senha = @$_GET["senha"];
 $nome = @$_GET["nome"];

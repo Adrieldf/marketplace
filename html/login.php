@@ -55,7 +55,7 @@
                                             
                       <p> 
                         <label for="login_cad">Seu login</label>
-                        <input id="login" name="login" required="required" type="text" placeholder="Bruno" />
+                        <input id="txtlogin" name="login" required="required" type="text" placeholder="Bruno" />
                       </p>
 
                       <p> 
