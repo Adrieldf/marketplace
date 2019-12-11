@@ -1,7 +1,5 @@
 <?php
 
-	/* @Autor: Dalker Pinheiro
-	   Atributos e métodos da classe */
 	   
 	class Produto{
 		//Atributos

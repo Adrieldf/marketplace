@@ -17,16 +17,16 @@
                 
                 <div class="content">      
                   <div id="login">
-                    <form method="post" action=""> 
+                    <form action="executalogin.php" method="post"> 
                       <h1>Login</h1> 
                       <p> 
                         <label for="email_login">Seu e-mail</label>
-                        <input id="email_login" name="email_login" required="required" type="text" placeholder="exemplo@exemplo.com"/>
+                        <input id="email_login" name="login" required="required" type="text" placeholder="exemplo@exemplo.com"/>
                       </p>
                       
                       <p> 
                         <label for="senha_login">Sua senha</label>
-                        <input id="senha_login" name="senha_login" required="required" type="password" placeholder="1234" /> 
+                        <input id="senha_login" name="senha" required="required" type="password" placeholder="1234" /> 
                       </p>
                       
                       <p> 
@@ -45,22 +45,27 @@
                     </form>
                   </div>
                   <div id="cadastro">
-                    <form method="post" action=""> 
+                    <form action="cadastrar.php" method="get"> 
                       <h1>Cadastro</h1> 
                       
                       <p> 
                         <label for="nome_cad">Seu nome</label>
-                        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Bruno Sottoriva" />
+                        <input id="nome" name="nome" required="required" type="text" placeholder="Bruno Sottoriva" />
                       </p>
-                      
+                                            
+                      <p> 
+                        <label for="login_cad">Seu login</label>
+                        <input id="login" name="login" required="required" type="text" placeholder="Bruno" />
+                      </p>
+
                       <p> 
                         <label for="email_cad">Seu e-mail</label>
-                        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="Exemplo@exemplo.com"/> 
+                        <input id="email" name="email" required="required" type="email" placeholder="Exemplo@exemplo.com"/> 
                       </p>
                       
                       <p> 
                         <label for="senha_cad">Sua senha</label>
-                        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+                        <input id="senha" name="senha" required="required" type="password" placeholder="1234"/>
                       </p>
                       
                       <p> 
