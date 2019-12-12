@@ -10,7 +10,7 @@
 	</head>
 	<body>
 	<?PHP include_once("navbar.html"); ?>
-	<button id="buscar"  >Buscar</button>
+	<!--<button id="buscar"  >Buscar</button> -->
 	<section id="listaProdutos" class="main items">
 	
 		

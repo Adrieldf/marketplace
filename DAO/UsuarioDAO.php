@@ -1,4 +1,5 @@
 <?php
+include_once('../DTO/Usuario.php');
 
 
 class UsuarioDAO{
@@ -45,7 +46,7 @@ class UsuarioDAO{
 	
 	//Insere um elemento na tabela
 	public function inserir($usuario){
-		include("conexao.php");
+		include("../conexao.php");
 		$sql = 'INSERT INTO usuario (idUsuario, nome, email, usuario, senha) VALUES (:idUsuario, :nome, :email, :usuario, :senha)';
 		$consulta = $conexao->prepare($sql);
 		$consulta->bindValue(':idUsuario',$usuario->getIdUsuario()); 

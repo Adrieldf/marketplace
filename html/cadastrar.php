@@ -9,12 +9,13 @@ $email =@$_GET["email"];
 $senha = @$_GET["senha"];
 $nome = @$_GET["nome"];
 
-$dao = new UsuarioDAO(null,$login,$email,$nome,$senha);
-$usuarioDAO = $dao->getUsuario();
+$usuarioDAO = new UsuarioDAO();
+$user = new Usuario(1,$login,$email,$nome,$senha,$usuarioDAO);
 
-$usuarioDAO = $dao ->inserir($dao);   
-
-header("Location: index.php");
-exit;
+echo $user->getIdUsuario();
+$usu = $usuarioDAO->inserir($user);   
+//$user->inserirDao();
+//header("Location: index.php");
+//exit;
 
 ?>

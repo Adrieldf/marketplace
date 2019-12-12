@@ -20,6 +20,6 @@ $email = $_POST["email"];
 
 $dao = new VendedorDAO();
 $vend = new Vendedor($idVendedor, $nome, $cpf, $cep, $rua, $numero, $bairro, $cidade, $estado, $pais, $telefone, $celular, $email);
-$vendedores = $dao->listarTodos();
+$dao->inserir($vend);
 
 ?>

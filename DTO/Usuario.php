@@ -12,17 +12,21 @@
 
  		private $usuario;
 
- 		private $senha;
+		 private $senha;
+		 private $usuarioDao;
 		
-		 public function __construct( $idUsuario, $nome, $email, $usuario, $senha)
+		 public function __construct( $idUsuario, $nome, $email, $usuario, $senha, $usuarioDao)
 		 {
 			 $this->idUsuario=$idUsuario;
 			 $this->nome=$nome;
 			 $this->email=$email;
 			 $this->usuario=$usuario;
 			 $this->senha=$senha;
+			 $this->usuarioDao=$usuarioDao;
 		 }
-	 
+	 public function inserirDao(){
+		 $this->usuarioDao->inserir($this);
+	 }
  				
 		//Métodos Getters e Setters
 		public function getIdUsuario(){

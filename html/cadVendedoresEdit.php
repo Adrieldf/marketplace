@@ -5,7 +5,10 @@
 </head>
 
 <body>
-    <script type="text/javascript" src="../js/controller.js"></script>
+    <script type="text/javascript" src="../js/controller.js"></script> 
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+ 		crossorigin="anonymous">	</script>
     <?PHP 
   include_once("navbar.html");
   ?>
@@ -21,7 +24,7 @@
         <div class="inner">
             <form class="inner" method="get" action="../html/cadProdutosList.php"> <button>Produtos</button> </form>
         </div>
-        <form class="formCenter">
+        <form id="formVendedor" class="formCenter" action="cadastraVendedores.php" method="GET" >
         <div style="display:none;">
         <input id="idVendedor">
         </div>
@@ -143,10 +146,16 @@
             </div>
             <br>
             <div class="divRow divSubmitButtons">
-                <a href="../html/cadVendedoresList.php" style="text-decoration: none;"><button form="cancel">Voltar</button></a>
-                <button form="submit">Salvar</button>
-                <button form="delete">Apagar</button>
+                <a href="../html/cadVendedoresList.php" style="text-decoration: none;"><button type="cancel">Voltar</button></a>
+                <button type="submit">Salvar</button>
+                <button type="delete">Apagar</button>
             </div>
         </form>
     </div>
+    <script>
+
+    $("#formVendedor").submit(function(){
+        
+    });
+    </script>
 </body>

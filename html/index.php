@@ -16,7 +16,7 @@
 					<p>Seu site de compras </p>
 				</div>
 			</header>
-			<div id="divBusca">
+			<div id="divBusca" style="position: absolute;top: 10px; right: 10px; display: flex;border-top: 0; border-right: 0;">
 				<img class="buscador" src="https://github.com/Adrieldf/marketplace/blob/master/Imagens/cropped-lupa.png?raw=true" alt="Buscar..."/>
 		
 				<input type="text" id="txtBusca" placeholder="O que Você esta Procurando?"/>
