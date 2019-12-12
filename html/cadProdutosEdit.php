@@ -17,19 +17,19 @@
     </header>
     <br>
     <div id="content" style="margin-left:40px; margin-right: 40px;">
-
+       <form action="cadastraProduto.php" method="get"> 
         <form class="formCenter">
             <div class="divRow">
                 <label class="formLabel">
                     Nome
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: Televisão">
+                <input id = "nome" class="formTextInput" type="text" placeholder="Ex: Televisão">
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     Modelo
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: TV0001BR">
+                <input id = "modelo" class="formTextInput" type="text" placeholder="Ex: TV0001BR">
             </div>
             <div class="divRow">
                 <label class="formLabel">
@@ -41,7 +41,7 @@
                 <label class="formLabel">
                     Segmento
                 </label>
-                <select class="formSelect">
+                <select id = "Segmento" class="formSelect">
                     <option value="eletronicos">Eletrônicos</option>
                     <option value="eletrodomesticos">Eletrodomésticos</option>
                     <option value="acessorios">Acessórios</option>
@@ -53,14 +53,14 @@
                 <label class="formLabel">
                     Descrição
                 </label>
-                <textarea class="formTextInput" type="text" rows="10"
+                <textarea id = "Descrição" class="formTextInput" type="text" rows="10"
                     placeholder="Ex: Excelente para ambiente doméstico"></textarea>
             </div>
             <div class="divRow">
                 <label class="formLabel">
                     Preço
                 </label>
-                <input class="formTextInput" type="text" placeholder="Ex: 1.000,00">
+                <input id = "preco" class="formTextInput" type="text" placeholder="Ex: 1.000,00">
             </div>
 
 
